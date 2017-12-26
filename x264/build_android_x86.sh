@@ -1,7 +1,7 @@
 #!/bin/bash
-NDK=/Users/yesimroy/Library/Android/sdk/ndk-bundle
-PLATFORM=$NDK/platforms/android-18/arch-x86/
-TOOLCHAIN=$NDK/toolchains/x86-4.9/prebuilt/darwin-x86_64
+NDK=E:/Android/sdk/ndk-bundle
+PLATFORM=$NDK/platforms/android-18/arch-arm/
+PREBUILT=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64
 PREFIX=./android/x86
 
 function build_one
