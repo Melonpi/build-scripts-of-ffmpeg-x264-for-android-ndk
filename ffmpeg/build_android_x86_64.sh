@@ -1,8 +1,8 @@
 #!/bin/bash
 #Change NDK to your Android NDK location
-NDK=/Users/yesimroy/Library/Android/sdk/ndk-bundle
-PLATFORM=$NDK/platforms/android-21/arch-x86_64/
-PREBUILT=$NDK/toolchains/x86_64-4.9/prebuilt/darwin-x86_64
+NDK=E:/Android/sdk/ndk-bundle
+PLATFORM=$NDK/platforms/android-18/arch-arm/
+PREBUILT=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64
 
 GENERAL="\
 --enable-small \
